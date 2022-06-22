@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registro Entrada"
+            android:textSize="25dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number">
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="text">
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unidad"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="text">
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblPrecioVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio venta"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPrecioVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number">
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblPrecioCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio Compra"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPrecioCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number">
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textSize="20dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number">
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnEnviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar">
+            </Button>
+
+            <Button
+                android:id="@+id/btnLimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpar">
+            </Button>
+
+            <Button
+                android:id="@+id/btnCerrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cerrar">
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
